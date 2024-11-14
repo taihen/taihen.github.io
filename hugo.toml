@@ -1,0 +1,4 @@
+baseURL = 'https://taihen.org/'
+languageCode = 'en-us'
+title = 'taihen.org / 418 ... engineering in progress'
+theme = 'ananke'
