@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>taihen.org / 418 ... engineering in progress</title><link>https://taihen.org/</link><description>Recent content on taihen.org / 418 ... engineering in progress</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 17 Feb 2024 12:00:00 +0000</lastBuildDate><atom:link href="https://taihen.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Test Page</title><link>https://taihen.org/posts/test-page/</link><pubDate>Tue, 10 Oct 2023 12:00:00 +0000</pubDate><guid>https://taihen.org/posts/test-page/</guid><description>&lt;h1 id="test-page">Test Page&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>taihen.org / 418 ... engineering in progress</title><link>https://taihen.org/</link><description>Recent content on taihen.org / 418 ... engineering in progress</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 17 Feb 2024 12:00:00 +0000</lastBuildDate><atom:link href="https://taihen.org/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://taihen.org/about/</link><pubDate>Sat, 17 Feb 2024 12:00:00 +0000</pubDate><guid>https://taihen.org/about/</guid><description>&lt;h1 id="about">About&lt;/h1>
+&lt;p>Welcome to my website! I&amp;rsquo;m excited to share my journey, projects, and thoughts with you.&lt;/p>
+&lt;h2 id="who-am-i">Who Am I?&lt;/h2>
+&lt;p>I&amp;rsquo;m a passionate infrastructure engineer with a love for creating innovative solutions and exploring new technologies. My journey in the tech world has been filled with learning, growth, and a lot of coding.&lt;/p>
+&lt;h2 id="what-do-i-do">What Do I Do?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Web Development:&lt;/strong> Building responsive and user-friendly websites.&lt;/li>
+&lt;li>&lt;strong>Software Engineering:&lt;/strong> Developing robust and scalable software solutions.&lt;/li>
+&lt;li>&lt;strong>Tech Blogging:&lt;/strong> Sharing insights, tutorials, and experiences in the tech industry.&lt;/li>
+&lt;/ul>
+&lt;h2 id="my-mission">My Mission&lt;/h2>
+&lt;p>To inspire and empower others through technology. I believe in the power of code to change the world and I&amp;rsquo;m dedicated to making a positive impact through my work.&lt;/p></description></item><item><title>Test Page</title><link>https://taihen.org/posts/test-page/</link><pubDate>Tue, 10 Oct 2023 12:00:00 +0000</pubDate><guid>https://taihen.org/posts/test-page/</guid><description>&lt;h1 id="test-page">Test Page&lt;/h1>
 &lt;p>Welcome to the most exciting test page you&amp;rsquo;ll ever encounter! 🎉&lt;/p>
 &lt;h2 id="why-is-this-page-here">Why is this page here?&lt;/h2>
 &lt;p>Well, every great website needs a humble beginning, and this is mine. Think of this page as the first pancake in the batch—it&amp;rsquo;s here to make sure everything is working smoothly before I serve up the real delicious content.&lt;/p>
@@ -19,7 +30,7 @@
  &lt;li>&lt;strong>Hugo Version:&lt;/strong> 0.143.1&lt;/li>
  &lt;li>&lt;strong>Build Date:&lt;/strong> 2025-02-04T08:57:38Z&lt;/li>
  &lt;li>&lt;strong>Environment:&lt;/strong> production&lt;/li>
- &lt;li>&lt;strong>Number of Pages:&lt;/strong> 5&lt;/li>
+ &lt;li>&lt;strong>Number of Pages:&lt;/strong> 6&lt;/li>
  &lt;li>&lt;strong>Number of Posts:&lt;/strong> 2&lt;/li>
  &lt;li>&lt;strong>Theme:&lt;/strong> ananke&lt;/li>
  &lt;li>&lt;strong>Browser:&lt;/strong> &lt;span id="browser-info">&lt;/span>&lt;/li>
