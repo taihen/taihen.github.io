@@ -4,8 +4,6 @@ date: 2013-09-11T22:36:36+01:00
 draft: false
 ---
 
-### Dotfiles
-
 > In Unix-like operating systems, dotfile is synonymous with hidden file. Usually used by programs to store configuration variables.
 
 I have multiple machines, which I regularly work on. I keep sync of a set of personalized dotfiles between them – customized settings for programs that I’m using, like many of you. Till now, I was using my private git repository for things like my private scripts, [Mutt](http://www.mutt.org/ "Mutt E-Mail Client"), [Irssi](http://www.irssi.org/ "Irssi IRC Client"), [Ekg2](http://ekg2.org/ "Ekg2 Multichat Client") or [Tmux](http://tmux.sourceforge.net/ "Tmux Terminal Multiplexer") configurations. On the other hand some I keep publicly available for others i.e. on [GitHub](https://github.com/taihen "GitHub Taihen") like [Vim configs](https://github.com/taihen/vimfiles). And oh boy, there are so many of them! The true is, I customize almost everything that I’m using including simple tools like cp (just to get progress bar or interactivity).
@@ -25,18 +23,17 @@ In other words, it tracks the necessary files in subdirectories and links those 
 After installing GNU Stow (apt-get/yum/brew install stow) you will find out that there are many ways to work with it.
 
 I’ve been experimenting with three setups:
-
--   per-application
--   per-environment
--   external
+- per-application
+- per-environment
+- external
 
 ##### Per-application
 
 Clone your Git dotfiles repository to ~/dotfiles, and enter the directory.
 
-You need to organise per-application directories for example:
+You need to organize per-application directories for example:
 
-```
+```sh
 ~/dotfiles/
     irssi/
         .config
@@ -55,14 +52,14 @@ This will allow you to choose which packages/configuration you would like to ins
 
 To install Bash configuration files, just do:
 
-```
+```sh
 cd ~/dotfiles
 stow bash
 ```
 
 If you would like to install Vim configuration files as well, do:
 
-```
+```sh
 cd ~/dotfiles
 stow vim
 ```
@@ -71,14 +68,14 @@ GNU Stow will symbolically link ~/dotfiles/bash/ and ~/dotfiles/vim to you home 
 
 Removing a config package follows the same logic by adding **\-D** flag and specifying installed package:
 
-```
+```sh
 stow -D bash
 stow -D vim
 ```
 
 And **\-R** flag to restow so, delete and install again, basically rescan package for any new files:
 
-```
+```sh
 stow -R bash
 stow -R vim
 ```
@@ -89,7 +86,7 @@ Again, clone your Git dotfiles repository to ~/dotfiles, and enter the directory
 
 You need to organise per-environemnt directories for example:
 
-```
+```sh
 ~/dotfiles/
     work/
         .config/
@@ -110,21 +107,21 @@ This will allow you divide which packages/configuration you would like to instal
 
 To install work configuration files on your laptop/desktop, just do:
 
-```
+```sh
 cd ~/dotfiles
 stow work
 ```
 
 But on server:
 
-```
+```sh
 cd ~/dotfiles
 stow server
 ```
 
 And add shared configuration:
 
-```
+```sh
 cd ~/dotfiles
 stow common
 ```
@@ -133,7 +130,7 @@ stow common
 
 Sometimes you might have external configs that [someone else is managing](http://dotfiles.github.io/ "GitHub dotfiles") and you just sync and use. I keep them in separate directory ~/Git and synchronise them every now and then. The problem is that if you would run stow on this repository in Git directory it would populate symbolic links where you would run stow command. This undesirable. But stow have trick for this as well. You can specify to which directory you would like to populate those symbolic links with **\-t** flag. For example:
 
-```
+```sh
 cd ~/Git
 stow -t ~ someones_dotfiles
 ```
