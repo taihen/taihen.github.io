@@ -1,6 +1,7 @@
 ---
 title: "Test Page"
 date: 2023-10-10T12:00:00Z
+lastmod: 2024-02-17T12:00:00Z
 draft: false
 ---
 
@@ -19,8 +20,6 @@ Well, every great website needs a humble beginning, and this is mine. Think of t
 - **What's next?** After this test, I'll be rolling out more awesome content. Stay tuned!
 
 ## Diagnostics
-
-{{< diagnostics hugoVersion="0.143.1" buildDate="2025-02-04T08:57:38Z" environment="production" theme="ananke" >}}
 
 ## A Little Humor
 
