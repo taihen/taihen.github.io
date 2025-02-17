@@ -1,0 +1,6 @@
+# ...existing code...
+
+[frontmatter]
+lastmod = ["lastmod", ":git", "date"]
+
+# ...existing code...
