@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on taihen.org / 418 ... engineering in progress</title><link>https://taihen.org/posts/</link><description>Recent content in Posts on taihen.org / 418 ... engineering in progress</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 17 Feb 2024 12:00:00 +0000</lastBuildDate><atom:link href="https://taihen.org/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Managing dotfiles with GNU Stow</title><link>https://taihen.org/posts/stow/</link><pubDate>Wed, 11 Sep 2013 22:36:36 +0100</pubDate><guid>https://taihen.org/posts/stow/</guid><description>&lt;h3 id="dotfiles">Dotfiles&lt;/h3>
-&lt;blockquote>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on taihen.org / 418 ... engineering in progress</title><link>https://taihen.org/posts/</link><description>Recent content in Posts on taihen.org / 418 ... engineering in progress</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 17 Feb 2024 12:00:00 +0000</lastBuildDate><atom:link href="https://taihen.org/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Managing dotfiles with GNU Stow</title><link>https://taihen.org/posts/stow/</link><pubDate>Wed, 11 Sep 2013 22:36:36 +0100</pubDate><guid>https://taihen.org/posts/stow/</guid><description>&lt;blockquote>
 &lt;p>In Unix-like operating systems, dotfile is synonymous with hidden file. Usually used by programs to store configuration variables.&lt;/p>&lt;/blockquote>
 &lt;p>I have multiple machines, which I regularly work on. I keep sync of a set of personalized dotfiles between them – customized settings for programs that I’m using, like many of you. Till now, I was using my private git repository for things like my private scripts, &lt;a href="http://www.mutt.org/" title="Mutt E-Mail Client">Mutt&lt;/a>, &lt;a href="http://www.irssi.org/" title="Irssi IRC Client">Irssi&lt;/a>, &lt;a href="http://ekg2.org/" title="Ekg2 Multichat Client">Ekg2&lt;/a> or &lt;a href="http://tmux.sourceforge.net/" title="Tmux Terminal Multiplexer">Tmux&lt;/a> configurations. On the other hand some I keep publicly available for others i.e. on &lt;a href="https://github.com/taihen" title="GitHub Taihen">GitHub&lt;/a> like &lt;a href="https://github.com/taihen/vimfiles">Vim configs&lt;/a>. And oh boy, there are so many of them! The true is, I customize almost everything that I’m using including simple tools like cp (just to get progress bar or interactivity).&lt;/p></description></item><item><title>What ever happend to IPv5</title><link>https://taihen.org/posts/ipv5/</link><pubDate>Fri, 25 Jan 2013 22:36:36 +0100</pubDate><guid>https://taihen.org/posts/ipv5/</guid><description>&lt;p>IPng, &lt;strong>Internet Protocol next generation&lt;/strong> (later on named IPv6), was conceived in 1994 with a goal to start deployment by 1996. This is one of the reasons of non-compatibility between IPv4 and IPv6 as the idea was that by the time that we will exhaust IPv4 addresses everybody will be already on IPv6. Right… by know we see that global adoption just reached the mark of 1% last year. Interestingly enough IPng at the beginning was called a protocol version 7 but as it was irrational to skip numbers, especially to odd ones, it was quickly corrected around 26th IETF to version 6. IPv6 was supposed to be the life saver over the well-used and already depleting IPv4, basically by increasing the size from 32 bits to 128 bits. Additionally it introduced as well anycast routing, removed the checksum from the IP layer etc. though we still have version field, 8 bits that identify this IP header as being of version 4 when there is a 4 in there and presumably they would use a 5 to identify this next generation version. Unfortunately, 5 was already given to something else.&lt;/p></description></item><item><title>CLOCK: INSERTING LEAP SECOND 23:59:60 UTC</title><link>https://taihen.org/posts/leapsecond/</link><pubDate>Sun, 27 Sep 2009 22:36:36 +0100</pubDate><guid>https://taihen.org/posts/leapsecond/</guid><description>&lt;p>I found above message in a kernel log and I was just wondering what is all about. I was amazed how little I knew about it.&lt;/p>
 &lt;blockquote>
@@ -13,36 +12,4 @@
 &lt;ul>
 &lt;li>&lt;strong>Did you know?&lt;/strong> The first website ever created is still online! You can visit it &lt;a href="http://info.cern.ch/hypertext/WWW/TheProject.html">here&lt;/a>.&lt;/li>
 &lt;li>&lt;strong>Why do I test?&lt;/strong> Catch those pesky rodens before they ruin the party.&lt;/li>
-&lt;/ul>
-&lt;h3 id="diagnostics">Diagnostics&lt;/h3>
-&lt;ul>
- &lt;li>&lt;strong>Page Title:&lt;/strong> Test Page&lt;/li>
- &lt;li>&lt;strong>Publish Date:&lt;/strong> 1970-01-01 12:00:00 &amp;#43;0000 UTC&lt;/li>
- &lt;li>&lt;strong>Last Updated:&lt;/strong> 2024-02-17 12:00:00 &amp;#43;0000 UTC&lt;/li>
- &lt;li>&lt;strong>Draft Status:&lt;/strong> false&lt;/li>
- &lt;li>&lt;strong>Base URL:&lt;/strong> https://taihen.org/&lt;/li>
- &lt;li>&lt;strong>Language:&lt;/strong> en&lt;/li>
- &lt;li>&lt;strong>Hugo Version:&lt;/strong> 0.143.1&lt;/li>
- &lt;li>&lt;strong>Build Date:&lt;/strong> 2025-02-04T08:57:38Z&lt;/li>
- &lt;li>&lt;strong>Environment:&lt;/strong> production&lt;/li>
- &lt;li>&lt;strong>Number of Pages:&lt;/strong> 11&lt;/li>
- &lt;li>&lt;strong>Number of Posts:&lt;/strong> 6&lt;/li>
- &lt;li>&lt;strong>Theme:&lt;/strong> ananke&lt;/li>
- &lt;li>&lt;strong>Browser:&lt;/strong> &lt;span id="browser-info">&lt;/span>&lt;/li>
- &lt;li>&lt;strong>IP Address:&lt;/strong> &lt;span id="ip-info">&lt;/span>&lt;/li>
-&lt;/ul>
-&lt;script>
- document.getElementById('browser-info').textContent = navigator.userAgent;
-
- fetch('https://api.ipify.org?format=json')
- .then(response => response.json())
- .then(data => {
- document.getElementById('ip-info').textContent = data.ip;
- })
- .catch(error => {
- console.error('Error fetching IP address:', error);
- });
-&lt;/script>
-
-&lt;h3 id="post-script">Post script&lt;/h3>
-&lt;p>How you wondered about the &lt;a href="https://taihen.org/posts/1970/">date&lt;/a> ?&lt;/p></description></item></channel></rss>
+&lt;/ul></description></item></channel></rss>
