@@ -20,7 +20,7 @@ Well, every great website needs a humble beginning, and this is mine. Think of t
 
 ## Diagnostics
 
-{{< diagnostics >}}
+{{< diagnostics hugoVersion="0.143.1" buildDate="2025-02-04T08:57:38Z" environment="production" >}}
 
 ## A Little Humor
 
