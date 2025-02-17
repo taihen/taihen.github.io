@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>taihen.org / 418 ... engineering in progress</title><link>https://taihen.org/</link><description>Recent content on taihen.org / 418 ... engineering in progress</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 10 Oct 2023 12:00:00 +0000</lastBuildDate><atom:link href="https://taihen.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Test Page</title><link>https://taihen.org/posts/test-page/</link><pubDate>Tue, 10 Oct 2023 12:00:00 +0000</pubDate><guid>https://taihen.org/posts/test-page/</guid><description>&lt;h1 id="test-page">Test Page&lt;/h1>
+&lt;p>This is a test page for the Hugo website hosted on GitHub.&lt;/p>
+&lt;p>Welcome to your first test page!&lt;/p>
+&lt;h2 id="diagnostics">Diagnostics&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Page Title:&lt;/strong> {{ .Title }}&lt;/li>
+&lt;li>&lt;strong>Publish Date:&lt;/strong> {{ .Date }}&lt;/li>
+&lt;li>&lt;strong>Draft Status:&lt;/strong> {{ .Draft }}&lt;/li>
+&lt;li>&lt;strong>Base URL:&lt;/strong> {{ .Site.BaseURL }}&lt;/li>
+&lt;li>&lt;strong>Language:&lt;/strong> {{ .Site.Language.Lang }}&lt;/li>
+&lt;li>&lt;strong>Hugo Version:&lt;/strong> {{ .Hugo.Version }}&lt;/li>
+&lt;li>&lt;strong>Build Date:&lt;/strong> {{ .Hugo.BuildDate }}&lt;/li>
+&lt;li>&lt;strong>Environment:&lt;/strong> {{ .Hugo.Environment }}&lt;/li>
+&lt;li>&lt;strong>Number of Pages:&lt;/strong> {{ len .Site.Pages }}&lt;/li>
+&lt;li>&lt;strong>Number of Posts:&lt;/strong> {{ len (where .Site.Pages &amp;ldquo;Section&amp;rdquo; &amp;ldquo;posts&amp;rdquo;) }}&lt;/li>
+&lt;li>&lt;strong>Theme:&lt;/strong> {{ .Site.Theme }}&lt;/li>
+&lt;/ul></description></item></channel></rss>
