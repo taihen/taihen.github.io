@@ -4,4 +4,7 @@
     <p>Published on: {{ .Date.Format "2006-01-02" }}</p>
     <p>Last updated on: {{ .Lastmod.Format "2006-01-02" }}</p>
   </header>
+  <div>
+    {{ .Content }}
+  </div>
 </article>

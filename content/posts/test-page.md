@@ -4,6 +4,9 @@ date: 2023-10-10T12:00:00Z
 draft: false
 ---
 
+<article>
+  <div>
+
 # Test Page
 
 Welcome to the most exciting test page you'll ever encounter! 🎉
@@ -27,3 +30,6 @@ Well, every great website needs a humble beginning, and this is mine. Think of t
 Why don't programmers like nature? It has too many bugs. 🐛
 
 Thanks for stopping by! I hope this page brought a smile to your face. If you have any feedback, feel free to reach out. Happy browsing!
+
+  </div>
+</article>
