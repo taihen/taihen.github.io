@@ -2,11 +2,12 @@
 title: "About"
 date: 2024-02-17T12:00:00Z
 draft: false
+featured_image: ''
+omit_header_text: true
+description: We'd love to hear from you
+type: page
+menu: main
 ---
-
-# About
-
-Welcome to my website! I'm excited to share my journey, projects, and thoughts with you.
 
 ## Who Am I?
 
@@ -14,16 +15,14 @@ I'm a passionate infrastructure engineer with a love for creating innovative sol
 
 ## What Do I Do?
 
-- **Web Development:** Building responsive and user-friendly websites.
-- **Software Engineering:** Developing robust and scalable software solutions.
-- **Tech Blogging:** Sharing insights, tutorials, and experiences in the tech industry.
+- **System Engineering:** Building system engineering tools for performance, automation and experience.
+- **Infrastructure Engineering:** Developing scalable infrastructure solutions.
+- **Tech Outreach:** Sharing insights, tutorials, and experiences.
 
 ## My Mission
 
-To inspire and empower others through technology. I believe in the power of code to change the world and I'm dedicated to making a positive impact through my work.
+To inspire and empower others through technology. I believe in the power of collaboration and code to change the world. I'm dedicated to making a positive impact through my work.
 
 ## Get In Touch
 
 Feel free to reach out if you have any questions, feedback, or just want to connect. I'm always open to new opportunities and collaborations.
-
-Thank you for visiting my website. Stay tuned for more updates and exciting content!

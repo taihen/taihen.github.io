@@ -2,3 +2,17 @@ baseURL = 'https://taihen.org/'
 languageCode = 'en-us'
 title = 'taihen.org / 418 ... engineering in progress'
 theme = 'ananke'
+sectionPagesMenu = "main"
+enableRobotsTXT = true
+
+[pagination]
+pagerSize = 9
+
+[params]
+text_color = ""
+favicon = ""
+site_logo = ""
+background_color_class = "bg-black"
+featured_image_class = "cover bg-top"
+cover_dimming_class = "bg-black-60"
+recent_posts_number = 6
