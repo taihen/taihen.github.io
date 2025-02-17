@@ -9,7 +9,7 @@
   <li><strong>Environment:</strong> {{ .Get "environment" }}</li>
   <li><strong>Number of Pages:</strong> {{ len .Site.Pages }}</li>
   <li><strong>Number of Posts:</strong> {{ len (where .Site.Pages "Section" "posts") }}</li>
-  <li><strong>Theme:</strong> {{ .Site.Theme }}</li>
+  <li><strong>Theme:</strong> {{ .Get "theme" }}</li>
   <li><strong>Browser:</strong> <span id="browser-info"></span></li>
   <li><strong>IP Address:</strong> <span id="ip-info"></span></li>
 </ul>
