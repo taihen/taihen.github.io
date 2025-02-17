@@ -1,0 +1,27 @@
+<ul>
+  <li><strong>Page Title:</strong> {{ .Page.Title }}</li>
+  <li><strong>Publish Date:</strong> {{ .Page.Date }}</li>
+  <li><strong>Draft Status:</strong> {{ .Page.Draft }}</li>
+  <li><strong>Base URL:</strong> {{ .Site.BaseURL }}</li>
+  <li><strong>Language:</strong> {{ .Site.Language.Lang }}</li>
+  <li><strong>Hugo Version:</strong> {{ .Hugo.Version }}</li>
+  <li><strong>Build Date:</strong> {{ .Hugo.BuildDate }}</li>
+  <li><strong>Environment:</strong> {{ .Hugo.Environment }}</li>
+  <li><strong>Number of Pages:</strong> {{ len .Site.Pages }}</li>
+  <li><strong>Number of Posts:</strong> {{ len (where .Site.Pages "Section" "posts") }}</li>
+  <li><strong>Theme:</strong> {{ .Site.Theme }}</li>
+  <li><strong>Browser:</strong> <span id="browser-info"></span></li>
+  <li><strong>IP Address:</strong> <span id="ip-info"></span></li>
+</ul>
+<script>
+  document.getElementById('browser-info').textContent = navigator.userAgent;
+
+  fetch('https://api.ipify.org?format=json')
+    .then(response => response.json())
+    .then(data => {
+      document.getElementById('ip-info').textContent = data.ip;
+    })
+    .catch(error => {
+      console.error('Error fetching IP address:', error);
+    });
+</script>
