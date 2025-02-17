@@ -4,7 +4,7 @@ date: 2024-02-17T12:00:00Z
 draft: false
 featured_image: ''
 omit_header_text: true
-description: We'd love to hear from you
+description: How to contact
 type: page
 menu: main
 ---
