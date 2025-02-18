@@ -2,6 +2,7 @@
 title: "Managing dotfiles with GNU Stow"
 date: 2013-09-11T22:36:36+01:00
 draft: false
+tags: ["dotfiles", "GNU Stow", "configuration management", "Linux", "Unix"]
 ---
 
 > In Unix-like operating systems, dotfile is synonymous with hidden file. Usually used by programs to store configuration variables.
