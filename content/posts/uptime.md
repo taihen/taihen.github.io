@@ -3,14 +3,14 @@ title: "The Uptime Olympics"
 date: 2014-06-02T22:36:36+01:00
 draft: true
 tags: ["uptime", "sysadmin", "server", "networking", "security"]
+lastmod: 2023-10-10T00:00:00+01:00
 ---
 
 ### The 2,487-Day Flex
 
 In the early 2000s, sysadmins wore server uptimes like badges of honor. I once met a colleague who told me about some RHEL 5 box that ran for **2,487 days** without a reboot.
 
-This wasn’t uncommon. Teams would gather around terminals like campfires:  
-- “Found a Windows 2000 server that went **five years** without a reboot—still chugging like a diesel engine!”  
+This wasn’t uncommon. Teams would gather around terminals like campfires:
 
 - "After running uninterrupted for 3737 days, this humble Sun 280R server running Solaris 9 was shut down. At the time of making the video it was idle, the last service it had was removed sometime last year. [A tribute video](https://www.youtube.com/watch?v=fAUvfqLEWuA) was made with some feelings about Sun, Solaris, the walk to the data center and freeing a machine from internet-slavery."
 <!--more-->
@@ -54,4 +54,4 @@ TBD
 
 Today, high uptime raises eyebrows, not applause. Tools like Ansible and Puppet prioritize *security* and *consistency* over raw longevity.
 
-Yet, part of me misses the audacity of those early sysadmins. There’s something undeniably poetic about a server outlasting *multiple iPhone generations* on sheer grit. Just don’t tell security.
+Yet, part of me misses the audacity of those early days. There’s something undeniably poetic about a server outlasting *multiple iPhone generations* on sheer grit. Just don’t tell security.
