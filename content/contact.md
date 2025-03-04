@@ -14,9 +14,3 @@ I'd love to hear from you! Whether you have a question, feedback, or just want t
 ### Get In Touch
 
 - [LinkedIn Profile](https://www.linkedin.com/in/taihen)
-
-### Let's Connect
-
-I'm always open to new opportunities and collaborations. Don't hesitate to get in touch if you have any ideas or projects you'd like to discuss.
-
-Thank you for visiting my website. I look forward to connecting with you!
