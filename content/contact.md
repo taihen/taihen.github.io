@@ -9,7 +9,7 @@ type: page
 menu: main
 ---
 
-I'd love to hear from you! Whether you have a question, feedback, or just want to say hello, feel free to reach out.
+Whether you have a question, feedback, or just want to say hello, feel free to reach out.
 
 ### Get In Touch
 
