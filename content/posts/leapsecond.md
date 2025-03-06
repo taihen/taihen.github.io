@@ -12,8 +12,7 @@ There is a organization called [International Earth Rotation and Reference Syste
 
 There have been many discussions and proposals for and against the future of leap seconds. A vote to stop leap seconds is currently being planned. NTP deals quite well with leap seconds.
 
-
-And finally ‘**Clock: inserting leap second**’ is found in kernel/time/ntp.c:143 of the 2.6.28 linux kernel.
+And finally  log message, "**Clock: inserting leap second**," originates from the Linux kernel source code, specifically from the file `kernel/time/ntp.c`, line 143, in version 2.6.28. This functionality in the Linux kernel was introduced to properly manage system time adjustments required when leap seconds are added or removed. Linux leverages NTP to synchronize system clocks, and when NTP detects an upcoming leap second through the information provided by authoritative time servers, it instructs the Linux kernel accordingly. When the moment arrives, the kernel generates this informative log message to notify system administrators and users that a leap second adjustment is occurring.
 
 ### Well then you would think why is the Earth Slowing Down?
 
