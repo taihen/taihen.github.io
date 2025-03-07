@@ -5,53 +5,53 @@ draft: true
 tags: ["uptime", "sysadmin", "server", "networking", "security"]
 lastmod: 2023-10-10T00:00:00+01:00
 ---
+### The 2,487-Day Server
 
-### The 2,487-Day Flex
+In the early 2000s, sysadmins took pride in server uptimes. I once had a colleague who proudly told me about a RHEL 5 server that ran non-stop for **2,487 days**—nearly seven years without a reboot!
 
-In the early 2000s, sysadmins wore server uptimes like badges of honor. I once met a colleague who told me about some RHEL 5 box that ran for **2,487 days** without a reboot.
+Stories like this weren't unusual. Sysadmins often shared these stories like campfire tales:
 
-This wasn’t uncommon. Teams would gather around terminals like campfires:
+> "After 3,737 days of continuous operation, we finally shut down our trusty Sun 280R server running Solaris 9. It hadn't been used for a while, but we made a [tribute video](https://www.youtube.com/watch?v=fAUvfqLEWuA) to honor its long service and retirement."
 
-- "After running uninterrupted for 3737 days, this humble Sun 280R server running Solaris 9 was shut down. At the time of making the video it was idle, the last service it had was removed sometime last year. [A tribute video](https://www.youtube.com/watch?v=fAUvfqLEWuA) was made with some feelings about Sun, Solaris, the walk to the data center and freeing a machine from internet-slavery."
-<!--more-->
 {{< youtube fAUvfqLEWuA >}}
 
-The logic? *“If it ain’t broke, don’t touch it.”* Never mind that “it” was a security liability running kernel versions older than the interns. 
+The mindset then was simple: *“If it isn't broken, don't fix it.”* Security updates and patches often seemed less important, especially if a server had proven itself reliable.
 
-But, lets keep in mind, those were different times.
+But times have changed.
 
-### Different times?
+### A Different Time for Servers
 
-Back in the 90s and early 2000s, rebooting server or network equipment was often seen as a last resort rather than a routine maintenance step. The constrains where quite different. Security landscape of those times was quite different and we had different relations with the machines that we've worked on. Most we have had installed ourself, most had name, some had personalities.
+Back in the 90s and early 2000s, rebooting a server was a big deal. It wasn't a regular maintenance task; it was something you only did if absolutely necessary. Most servers had unique names and personalities and were personally installed by the admins themselves. This might sound funny nowadays, but there where a good reasons for this.
 
-#### Downtime Concerns
+#### Fear of Downtime
 
-Rebooting meant taking critical systems offline, which could disrupt services and affect users or business operations. High uptime was a point of pride, so any forced interruption was avoided if possible. High availability tooling ( proxies, load balancers) was in its inception so most applications where running on a single server, resulting reboots meant then always downtime. This is physical machine being rebooted and boot took many minutes ... at best.
+Rebooting a server meant downtime, which businesses and users hated. High availability technologies like load balancers were still new, so downtime was unavoidable. Reboots weren’t quick—they could take several stressful minutes if not hours.
 
-#### Risk of Boot Issues
+#### A Pride of Uptime
 
-Older hardware and software weren’t always as robust as today’s. As reboots where avoided, problems were unavoidable. A reboot could sometimes lead to unpredictable problems during startup—like configuration glitches, file corruptions or hardware initialization failures - that might require manual, on-site intervention. If a server has a two year uptime in busy environment, if power cycled, will it come back?
+Back then, uptime was a badge of honor. Rebooting was the absolute last resort. Sysadmins would do everything possible—applying temporary fixes, patching configurations manually, or even tolerating minor issues—just to avoid restarting. Successfully avoiding a reboot was a point of pride, celebrated among peers as proof of expertise and resourcefulness.
+
+#### Boot Problems
+
+Older hardware and software weren't as stable as they are today. A reboot could cause unexpected issues, like configuration errors or hardware failures. Sysadmins often worried if their servers would even restart properly.
 
 #### Limited Remote Management
 
-Remote monitoring and management tools were not as advanced. If something went wrong after a reboot, administrators might have had to physically visit the data center to fix the issue. Most of the racks did not have remotely controlled KVMs, usually sysadmins have had trolleys with screens and keyboards available on each data center floor.
+Remote management wasn't common back then. If something went wrong during a reboot, if no remote hands where available, sysadmins often had to physically visit the data center to fix it, lugging around carts loaded with screens and keyboards. I've biked, I drove but also had to take taxi.
 
-#### Stability Philosophy
+#### Valuing Stability
 
-There was a strong “if it isn’t broken, don’t fix it” culture. Administrators preferred to let systems run continuously rather than risk introducing new problems with a reboot.
+Sysadmins strongly believed, "If it isn't broken, don't fix it." Stability was more important than frequent updates.
 
-#### Lack of Hot Patching
+#### No Easy Updates
 
-Unlike today’s systems that support live patching and updates, older systems often needed a full reboot to apply fixes or updates, which meant scheduled maintenance windows were rare and meticulously planned.
+Unlike today, older servers didn't support live updates. Updates typically required a full reboot, and maintenance windows were carefully planned and dreaded.
 
-{{<youtube uRGljemfwUE>}}
+### Today: Uptime Isn't Everything
 
-In summary, the potential for downtime, unpredictable behavior during boot, and the lack of sophisticated remote management tools made administrators very cautious about rebooting their gear back then.
+Now, long uptimes can actually signal problems. Tools like Ansible and Puppet prioritize regular updates and security over long-running servers. 
 
-TBD
+Still, it's fun to think about those older servers that kept running, year after year, simply because no one dared to turn them off. Those days had their own kind of charm—even if they weren't the safest.
 
-## Modern Wisdom: Uptime ≠ Excellence
-
-Today, high uptime raises eyebrows, not applause. Tools like Ansible and Puppet prioritize *security* and *consistency* over raw longevity.
-
-Yet, part of me misses the audacity of those early days. There’s something undeniably poetic about a server outlasting *multiple iPhone generations* on sheer grit. Just don’t tell security.
+> Discalmer
+> This is application point of view. To this date, there are significant number of devices - which are not servers, that require high uptime for stability. In example, many core and edge network devices, despite having redunancy is prefered to be stable.
