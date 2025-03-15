@@ -2,7 +2,7 @@
 title: "About"
 date: 2024-02-17T12:00:00Z
 draft: false
-featured_image: ''
+featured_image: ""
 omit_header_text: true
 description: We'd love to hear from you
 type: page
@@ -11,18 +11,44 @@ menu: main
 
 ## Who Am I?
 
-I'm a staff level infrastructure engineer with a love for creating innovative solutions and exploring new technologies.
+I'm a staff level infrastructure engineer with a love for creating solutions and exploring new technologies.
 
-I’ve seen it all (well, almost): from servers under you desk, the wild west days of configuration management, through the cloud’s grand entrance, survived the container orchestrator wars (who remembers [Tupperware?](https://www.slideshare.net/slideshow/aravindnarayanan-facebook140613153626phpapp02-37588997/37588997)), and now I’m all aboard the Kubernetes train. But deep down though, I’m just a Linux guy.
+## The Engineering Journey
+
+From placing servers under desks in the late 90s to architecting hybrid cloud solutions today, my career has been defined by solving increasingly complex infrastructure challenges.
+
+What started with a foundation in robotics and C programming evolved when I discovered my passion for infrastructure in the telecommunications sector. Throughout this evolution, I've maintained a philosophy that effective infrastructure should be invisible to end users while providing rock-solid reliability for the applications it supports.
+
+Each technology wave – from the manual configuration era to the infrastructure-as-code revolution – has reinforced my belief that understanding fundamentals matters more than chasing trends. That's why I remain, at heart, a Linux enthusiast who appreciates elegant solutions built on solid engineering principles.
 
 ## What Do I Do?
 
-- **System Engineering:** Building system engineering tools for performance, automation and experience.
-- **Infrastructure Engineering:** Developing scalable infrastructure solutions.
-- **Tech Outreach:** Sharing insights, tutorials, and experiences.
+- **System Engineering:** tools for performance, automation and experience.
+- **Infrastructure Engineering:** building and maintaining infrastructure solutions, both on-premises and in the cloud.
+- **Tech Outreach:** sharing insights, tutorials, and experiences.
 
-I’ve spent most of my career in the Telco world, first as a entrapanur and engineer, later trainer and evangelist. I’ve had the privilege of speaking at events about global routing security, IPv6, and DNSSEC — topics that really make my heart race (in a good way)!
+Although my background is in robotics and C, I’ve spent most of my career in the Telco world. I’ve had the privilege of speaking at events about global routing security, IPv6, and DNSSEC — topics that really make my heart race (in a good way)!
+
+## Engineering Principles
+
+My approach to infrastructure engineering is guided by core beliefs:
+- **Reliability Before Features:** A system that works consistently beats one with flashy capabilities that fail unpredictably.
+- **Automation as Documentation:** Well-crafted automation serves dual purposes – it both executes and documents the expected system state.
+- **Observability by Design:** Systems should be designed from the ground up to be monitored, measured, and understood.
+- **Continuous Improvement:** Today's elegant solution will be tomorrow's technical debt if not regularly refined.
+
+## Beyond the Terminal
+
+The discipline and strategic thinking I developed as a basketball player directly translates to how I approach complex engineering challenges. Just as a successful fast break requires anticipating multiple moving parts, building resilient infrastructure demands thinking several steps ahead.
+
+My current passion for distance running and collecting Superhalfs medals 🏅 across Europe reflects my approach to engineering problems – steady progress, consistent effort, and the satisfaction of reaching meaningful milestones through persistence.
 
 ## Get In Touch
 
 Feel free to [reach out]({{< relref "/contact/" >}}) if you have any questions, feedback, or just want to connect.
+
+I'm particularly interested in discussing:
+- Infrastructure scalability challenges in high-throughput environments
+- Mentoring opportunities for early-career infrastructure engineers
+- Speaking engagements related to network security or infrastructure automation
+- Collaboration on open-source tools for infrastructure management
