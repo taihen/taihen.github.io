@@ -1,7 +1,7 @@
 ---
 title: "The Evolution of Configuration Management"
 date: 2025-01-07T21:45:01+01:00
-draft: true
+draft: false
 tags:
   [
     "25years",
