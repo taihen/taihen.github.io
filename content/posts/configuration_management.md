@@ -17,7 +17,7 @@ lastmod: 2025-03-15T11:25:36+01:00
 
 > This is part of series of articles about my perspective of 25 years in infrastructure engineering [read more]({{< relref "/tags/25years/" >}})
 
-Over my two decades as an infrastructure engineer, I've watched our field transform dramatically. What began with manual server configuration has evolved into defining entire cloud environments as code. This journey reflects not just technological change, but a complete shift in how we approach managing systems at scale. I've been in the trenches through most of it, and I want to share my story of this evolution with fellow infrastructure engineers who've lived through similar transitions.
+Over my two decades as an infrastructure engineer, I've watched our field transform dramatically. What began with manual server configuration has evolved into defining entire organizations infrastructure as code. This journey reflects not just technological change, but a complete shift in how we approach managing systems at scale. I've been in the trenches through most of it, and I want to share my story of this evolution with fellow infrastructure engineers who've lived through similar transitions.
 
 ## The Early Days: Manual Configuration and Basic Tools
 
