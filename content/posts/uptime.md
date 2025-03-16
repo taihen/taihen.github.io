@@ -1,5 +1,5 @@
 ---
-title: ""May your uptime be high!"
+title: "May your uptime be high!"
 date: 2014-06-02T22:36:36+01:00
 draft: true
 tags: ["uptime", "sysadmin", "server", "networking", "security"]
