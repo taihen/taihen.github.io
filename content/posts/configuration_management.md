@@ -15,8 +15,6 @@ tags:
 lastmod: 2025-03-15T11:25:36+01:00
 ---
 
-> This is part of series of articles about my perspective of 25 years in infrastructure engineering [read more]({{< relref "/tags/25years/" >}})
-
 Over my two decades as an infrastructure engineer, I've watched our field transform dramatically. What began with manual server configuration has evolved into defining entire organizations infrastructure as code. This journey reflects not just technological change, but a complete shift in how we approach managing systems at scale. I've been in the trenches through most of it, and I want to share my story of this evolution with fellow infrastructure engineers who've lived through similar transitions.
 
 ## The Early Days: Manual Configuration and Basic Tools
@@ -384,3 +382,5 @@ If you're just starting your journey into modern infrastructure management, I'd 
 For experienced engineers, the key takeaway isn't which specific tool to use, but understanding the principles that make these tools effective. As our field continues to evolve, which is part of the fun! The tools will change, but the core principles of automation, consistency, and code-driven infrastructure will remain essential to manage modern systems at scale.
 
 Keep it running smoothly!
+
+> This is part of series of articles about my perspective of 25 years in infrastructure engineering [read more]({{< relref "/tags/25years/" >}})

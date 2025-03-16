@@ -1,10 +1,11 @@
 ---
-title: "The Uptime Olympics"
+title: ""May your uptime be high!""
 date: 2014-06-02T22:36:36+01:00
 draft: true
 tags: ["uptime", "sysadmin", "server", "networking", "security"]
 lastmod: 2023-10-10T00:00:00+01:00
 ---
+
 ### The 2,487-Day Server
 
 In the early 2000s, sysadmins took pride in server uptimes. I once had a colleague who proudly told me about a RHEL 5 server that ran non-stop for **2,487 days**—nearly seven years without a reboot!
@@ -15,7 +16,7 @@ Stories like this weren't unusual. Sysadmins often shared these stories like cam
 
 {{< youtube fAUvfqLEWuA >}}
 
-The mindset then was simple: *“If it isn't broken, don't fix it.”* Security updates and patches often seemed less important, especially if a server had proven itself reliable.
+The mindset then was simple: _“If it isn't broken, don't fix it.”_ Security updates and patches often seemed less important, especially if a server had proven itself reliable.
 
 But times have changed.
 
@@ -49,7 +50,7 @@ Unlike today, older servers didn't support live updates. Updates typically requi
 
 ### Today: Uptime Isn't Everything
 
-Now, long uptimes can actually signal problems. Tools like Ansible and Puppet prioritize regular updates and security over long-running servers. 
+Now, long uptimes can actually signal problems. Tools like Ansible and Puppet prioritize regular updates and security over long-running servers.
 
 Still, it's fun to think about those older servers that kept running, year after year, simply because no one dared to turn them off. Those days had their own kind of charm—even if they weren't the safest.
 
