@@ -1,12 +1,12 @@
 ---
 title: "Accel-PPP Prometheus Exporter"
 date: 2025-04-08T12:00:00+01:00
-draft: true
+draft: false
 tags: ["prometheus", "grafana", "monitoring", "accel-ppp", "exporter", "networking"]
 lastmod: 2025-04-08T12:00:00+01:00
 ---
 
-As infrastructure engineers, we often find ourselves bridging gaps between the tools we use and the monitoring systems we rely on. When I've migrated to **Prometheus** and **Grafana** on one of the sites, integrating [**Accel-PPP**](https://github.com/accel-ppp/accel-ppp) posed a unique challenge. The absence of native **Prometheus** support for **Accel-PPP** meant I was stuck with an SNMP-based monitoring setup, but relying on SNMP for metrics felt like patching a modern system with legacy tools—inefficient and less than ideal. This led me to develop [**accel-exporter**](https://github.com/taihen/accel-exporter), a straightforward solution to seamlessly connect **Accel-PPP** with **Prometheus**.
+As infrastructure engineers, we often find ourselves bridging gaps between the tools we use and the monitoring systems we rely on. When I've migrated to **Prometheus** and **Grafana** on one of the sites, integrating [**Accel-PPP**](https://github.com/accel-ppp/accel-ppp) posed a unique challenge. The absence of native Prometheus support for Accel-PPP meant I was stuck with an SNMP-based monitoring setup, but relying on SNMP for metrics felt like patching a modern system with legacy tools—inefficient and less than ideal. This led me to develop [**accel-exporter**](https://github.com/taihen/accel-exporter), a straightforward solution to seamlessly connect Accel-PPP with Prometheus.
 
 ### What does accel-exporter Do?
 
@@ -39,7 +39,7 @@ scrape_configs:
 
 - Visualize with Grafana: Use Grafana to create dashboards and visualize the collected data. To simplify that process, I've also added a [dashboard](https://github.com/taihen/accel-exporter/blob/main/dashboards/) to the repository as a easy start.
 
-![Grafana Dashboard.](https://github.com/taihen/accel-exporter/blob/main/dashboards/grafana.png)
+![Grafana Dashboard](https://github.com/taihen/accel-exporter/blob/main/dashboards/grafana.png)
 
 For those managing Accel-PPP and seeking a simple - ready to use solution, **accel-exporter** offers a straightforward path to integrate with Prometheus and Grafana, enhancing observability without the SNMP overhead.
 
