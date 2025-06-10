@@ -205,7 +205,7 @@ How it works:
 
 #### With Chainguard Distroless
 
-Chainguard Images are another great, secure, minimal alternative. They’re signed, SBOM-enabled, and often more up-to-date than Google’s due to rolling updated. (Wolfi is rolling Linux distribution, so similar philosophy to Arch or Gentoo)
+Chainguard Images are another great, secure, minimal alternative. They’re signed, SBOM-enabled, and often more up-to-date than Google’s due to rolling updates. (Wolfi is rolling Linux distribution, so similar philosophy to Arch or Gentoo)
 
 Chainguard has images for Go (chainguard.dev Go base), as well as a general-purpose distroless image called chainguard/static.
 
