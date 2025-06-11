@@ -12,7 +12,7 @@ tags:
     "DevOps",
     "history",
   ]
-lastmod: 2025-03-15T11:25:36+01:00
+lastmod: 2025-06-11T10:38:36+01:00
 ---
 
 Over my two decades as an infrastructure engineer, I've watched our field transform dramatically. What began with manual server configuration has evolved into defining entire organizations infrastructure as code. This journey reflects not just technological change, but a complete shift in how we approach managing systems at scale. I've been in the trenches through most of it, and I want to share my story of this evolution with fellow infrastructure engineers who've lived through similar transitions.
@@ -350,13 +350,17 @@ Among configuration management tools, Ansible has shown remarkable staying power
 
 The introduction of [Ansible Automation Platform](https://www.redhat.com/en/technologies/management/ansible) with features like automation mesh has further enhanced its relevance. Automation mesh enables distributing automation workloads across hybrid environments, making Ansible suitable even for distributed, cloud-native deployments.
 
+What's particularly exciting is that IBM (which already owns Red Hat and Ansible) recently acquired HashiCorp, the makers of Terraform, for $6.4 billion in 2024. This move shows that even the big players recognize the natural synergy between these tools. I'm pretty confident that over time, IBM will bring Terraform and Ansible even closer together as a unified offering. They've already mentioned how Terraform's infrastructure provisioning capabilities combined with Ansible's configuration management creates a powerful one-two punch for hybrid cloud environments. It's like having the best of both worlds under one roof - and honestly, it makes perfect sense given how many of us already use them together in our daily workflows.
+
 As a practical example, I use Ansible alongside Terraform for managing some on-prem Kubernetes clusters. Ansible provisions the cluster infrastructure, while Terraform configures the application deployment, and day-2 operations.
+
+
 
 ### Are we done yet?
 
 Far from it!
 
-Meet [System Initiative](https://www.systeminit.com/), a new tool from Chef founder Adam Jacob released in 2024. At its core, System Initiative introduces a new approach centered around the concept of digital twins for infrastructure environments. Rather than defining infrastructure through static code files, System Initiative creates a living model that simulates entire infrastructure stack, which is a large departure from statically defined configurations of nowadays mainstream tools. Is it here to stay? Only time will tell. For one tool that succeeded, we have hounders that did not.s
+Meet [System Initiative](https://www.systeminit.com/), a new tool from Chef founder Adam Jacob released in 2024. At its core, System Initiative introduces a new approach. Rather than defining infrastructure through static code files, System Initiative creates a living model that simulates entire infrastructure stack, which is a large departure from statically defined configurations of nowadays mainstream tools. Is it here to stay? Only time will tell. For one tool that succeeded, we have hounders that did not.s
 
 There are many others to come, many smaller and bigger issues that we need to address, while still AI is lurking at us.
 
