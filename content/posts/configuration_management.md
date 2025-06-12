@@ -354,8 +354,6 @@ What's particularly exciting is that IBM (which [already owns Red Hat](https://w
 
 As a practical example, I use Ansible alongside Terraform for managing some on-prem Kubernetes clusters. Ansible provisions the cluster infrastructure, while Terraform configures the application deployment, and day-2 operations.
 
-
-
 ### Are we done yet?
 
 Far from it!
