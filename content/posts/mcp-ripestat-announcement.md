@@ -17,9 +17,9 @@ tags:
 
 Ever found yourself knee-deep in a routing incident at 3 AM, frantically switching between terminals and browser tabs trying to piece together BGP data? **I've been there**. You're chasing down a routing anomaly, your coffee's gone cold, and you're clicking through endless forms just to figure out which AS is announcing that suspicious prefix.
 
-What if I told you that instead of navigating web forms and memorizing API endpoints, you could just ask: _"Who's announcing 1.1.1.1 and when did they start?"_ or _"Show me the routing history for this IP that's been acting weird"_ - and get instant, detailed answers?
+What if I told you that instead of switching between terminals and browser tabs, you could use natural language to describe the problem, and then ask the computer to do the work for you?
 
-That's exactly what [MCP RIPEstat](https://github.com/taihen/mcp-ripestat) does. It's a bridge between the incredibly powerful [RIPEstat Data API](https://stat.ripe.net/docs/data_api) and natural language, built specifically for network engineers who have better things to do than remember API documentation.
+That's exactly what [MCP RIPEstat](https://github.com/taihen/mcp-ripestat) does. It's a bridge between the incredibly powerful [RIPEstat Data API](https://stat.ripe.net/docs/data_api) and natural language, built specifically for network engineers who have better things to do.
 
 ## Why Should Network Engineers Care?
 
@@ -29,11 +29,11 @@ If you've spent any time troubleshooting Internet routing, you know the drill:
 
 - Open
   - Terminal and login to a BGP router, start looking at your AS routing snapshot
-  - RIPEstat and some looking glass services from most known providers
+  - RIPEstat and some looking glass services from most known providers, to get their perspective on the situation
 - Navigate through menus to find the right tool
 - Fill out forms with IP addresses or ASNs
 - Copy/paste results between browser windows and terminal
-- Repeat for every piece of related data you need
+- Repeat for every piece of related data you need plus some notes for context.
 - Try to correlate everything manually
 
 **The New Way:**
