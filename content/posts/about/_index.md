@@ -13,7 +13,9 @@ menu: main
 
 I'm a staff level infrastructure engineer with a affection for creating solutions and exploring new technologies.
 
-TLDR& I build systems for others.
+![Me](me.jpg)
+
+TL;DR I build systems for others.
 
 ## This site
 
