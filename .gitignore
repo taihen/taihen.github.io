@@ -26,3 +26,4 @@ resources/*
 
 # Temporary editor files
 .aider*
+.crush/

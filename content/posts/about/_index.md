@@ -35,7 +35,7 @@ Each technology wave – from the manual configuration era to the infrastructure
 - **Infrastructure Engineering:** building and maintaining infrastructure solutions, both on-premises and in the cloud.
 - **Tech Outreach:** sharing insights, tutorials, and experiences.
 
-Although my background is in robotics and C, I’ve spent most of my career in the Telecommunication world. I’ve had the privilege of speaking at events about global routing security, IPv6, and DNSSEC — topics that really make my heart race (in a good way)!
+I’ve had the privilege of speaking at events about global routing security, IPv6, and DNSSEC — topics that really make my heart race (in a good way)!
 
 ## Engineering Principles
 
