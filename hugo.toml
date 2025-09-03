@@ -2,8 +2,28 @@ baseURL = 'https://taihen.org/'
 languageCode = 'en-us'
 title = 'taihen.org / 418 ... engineering in progress'
 theme = 'ananke'
-sectionPagesMenu = "main"
 enableRobotsTXT = true
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 10
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 20
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 30
+[[menu.main]]
+  name = "Trainings"
+  url = "/trainings/"
+  weight = 40
+[[menu.main]]
+  name = "RSS"
+  url = "/index.xml"
+  weight = 50
 
 [pagination]
 pagerSize = 9
