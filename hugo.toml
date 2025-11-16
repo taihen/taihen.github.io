@@ -21,9 +21,14 @@ enableRobotsTXT = true
   url = "/trainings/"
   weight = 40
 [[menu.main]]
+  name = "GitHub"
+  url = "https://github.com/taihen"
+  weight = 50
+[[menu.main]]
   name = "RSS"
   url = "/index.xml"
-  weight = 50
+  weight = 60
+
 
 [pagination]
 pagerSize = 9
