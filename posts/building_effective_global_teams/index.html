@@ -1,0 +1,207 @@
+<!doctype html><html lang=en-us zgotmplz><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1"><title>Working Effectively in Multinational Teams as an Engineer | taihen.org / 418 ... engineering in progress</title><meta name=viewport content="width=device-width,minimum-scale=1"><meta name=description content="Early in my career, I assumed everyone worked the same way I did. I thought
+&ldquo;professional&rdquo; meant universal and that technical rigor transcended culture. I
+was not just incorrect, I was naively wrong.
+I&rsquo;ve spent about twenty-five years working in infrastructure engineering, almost
+always in multinational distributed teams. I&rsquo;ve been the formal manager of an
+infrastructure team twice in my career, but mostly I&rsquo;ve been on the other side,
+a team member trying to figure out how to work with people who think,
+communicate, and collaborate completely differently than I do. Right now, I&rsquo;m in
+a team of seven people where every single person has a different nationality,
+trying to help, enable and influence while &ldquo;my way&rdquo; might not be &ldquo;their way.&rdquo; I
+misjudge people&rsquo;s preferences regularly and have to repair trust after the fact.
+It&rsquo;s uncomfortable every time, but it&rsquo;s part of the process."><meta name=generator content="Hugo 0.155.2"><meta name=robots content="index, follow"><link rel=stylesheet href=/ananke/css/main.min.efe4d852f731d5d1fbb87718387202a97aafd768cdcdaed0662bbe6982e91824.css><link rel=canonical href=https://taihen.org/posts/building_effective_global_teams/><meta property="og:url" content="https://taihen.org/posts/building_effective_global_teams/"><meta property="og:site_name" content="taihen.org / 418 ... engineering in progress"><meta property="og:title" content="Working Effectively in Multinational Teams as an Engineer"><meta property="og:description" content="Early in my career, I assumed everyone worked the same way I did. I thought “professional” meant universal and that technical rigor transcended culture. I was not just incorrect, I was naively wrong.
+I’ve spent about twenty-five years working in infrastructure engineering, almost always in multinational distributed teams. I’ve been the formal manager of an infrastructure team twice in my career, but mostly I’ve been on the other side, a team member trying to figure out how to work with people who think, communicate, and collaborate completely differently than I do. Right now, I’m in a team of seven people where every single person has a different nationality, trying to help, enable and influence while “my way” might not be “their way.” I misjudge people’s preferences regularly and have to repair trust after the fact. It’s uncomfortable every time, but it’s part of the process."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2026-02-05T19:00:00+02:00"><meta property="article:modified_time" content="2026-02-05T19:00:00+02:00"><meta property="article:tag" content="Distributed-Teams"><meta property="article:tag" content="Culture"><meta property="article:tag" content="Communication"><meta property="article:tag" content="Engineering"><meta itemprop=name content="Working Effectively in Multinational Teams as an Engineer"><meta itemprop=description content="Early in my career, I assumed everyone worked the same way I did. I thought “professional” meant universal and that technical rigor transcended culture. I was not just incorrect, I was naively wrong.
+I’ve spent about twenty-five years working in infrastructure engineering, almost always in multinational distributed teams. I’ve been the formal manager of an infrastructure team twice in my career, but mostly I’ve been on the other side, a team member trying to figure out how to work with people who think, communicate, and collaborate completely differently than I do. Right now, I’m in a team of seven people where every single person has a different nationality, trying to help, enable and influence while “my way” might not be “their way.” I misjudge people’s preferences regularly and have to repair trust after the fact. It’s uncomfortable every time, but it’s part of the process."><meta itemprop=datePublished content="2026-02-05T19:00:00+02:00"><meta itemprop=dateModified content="2026-02-05T19:00:00+02:00"><meta itemprop=wordCount content="2605"><meta itemprop=keywords content="Distributed-Teams,Culture,Communication,Engineering"><meta name=twitter:card content="summary"><meta name=twitter:title content="Working Effectively in Multinational Teams as an Engineer"><meta name=twitter:description content="Early in my career, I assumed everyone worked the same way I did. I thought “professional” meant universal and that technical rigor transcended culture. I was not just incorrect, I was naively wrong.
+I’ve spent about twenty-five years working in infrastructure engineering, almost always in multinational distributed teams. I’ve been the formal manager of an infrastructure team twice in my career, but mostly I’ve been on the other side, a team member trying to figure out how to work with people who think, communicate, and collaborate completely differently than I do. Right now, I’m in a team of seven people where every single person has a different nationality, trying to help, enable and influence while “my way” might not be “their way.” I misjudge people’s preferences regularly and have to repair trust after the fact. It’s uncomfortable every time, but it’s part of the process."><script async src="https://www.googletagmanager.com/gtag/js?id=G-36HC46PNZV"></script><script>var doNotTrack=!1,dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes";if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-36HC46PNZV")}</script></head><body class="ma0 avenir bg-near-white production"><header><div class=bg-black><nav class="pv3 ph3 ph4-ns" role=navigation><div class="flex-l justify-between items-center center"><a href=/ class="f3 fw2 hover-white no-underline white-90 dib">taihen.org / 418 ... engineering in progress</a><div class="flex-l items-center"><ul class="pl0 mr3"><li class="list f5 f4-ns fw4 dib pr3"><a class="hover-white no-underline white-90" href=/about/ title="About page">About</a></li><li class="list f5 f4-ns fw4 dib pr3"><a class="hover-white no-underline white-90" href=/contact/ title="Contact page">Contact</a></li><li class="list f5 f4-ns fw4 dib pr3"><a class="hover-white no-underline white-90" href=/posts/ title="Posts page">Posts</a></li><li class="list f5 f4-ns fw4 dib pr3"><a class="hover-white no-underline white-90" href=/trainings/ title="Trainings page">Trainings</a></li><li class="list f5 f4-ns fw4 dib pr3"><a class="hover-white no-underline white-90" href=https://github.com/taihen title="GitHub page">GitHub</a></li><li class="list f5 f4-ns fw4 dib pr3"><a class="hover-white no-underline white-90" href=/index.xml title="RSS page">RSS</a></li></ul><div class=ananke-socials></div></div></div></nav></div></header><main class=pb7 role=main><article class="flex-l flex-wrap justify-between mw8 center ph3"><header class="mt4 w-100"><aside class="instapaper_ignoref b helvetica tracked ttu">Posts</aside><div id=sharing class="mt3 ananke-socials"></div><h1 class="f1 athelas mt3 mb1">Working Effectively in Multinational Teams as an Engineer</h1><time class="f6 mv4 dib tracked" datetime=2026-02-05T19:00:00+02:00>February 5, 2026</time></header><div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Early in my career, I assumed everyone worked the same way I did. I thought
+&ldquo;professional&rdquo; meant universal and that technical rigor transcended culture. I
+was not just incorrect, <strong>I was naively wrong</strong>.</p><p>I&rsquo;ve spent about twenty-five years working in infrastructure engineering, almost
+always in multinational distributed teams. I&rsquo;ve been the formal manager of an
+infrastructure team twice in my career, but mostly I&rsquo;ve been on the other side,
+a team member trying to figure out how to work with people who think,
+communicate, and collaborate completely differently than I do. Right now, I&rsquo;m in
+a team of seven people where every single person has a different nationality,
+trying to help, enable and influence while &ldquo;my way&rdquo; might not be &ldquo;their way.&rdquo; I
+misjudge people&rsquo;s preferences regularly and have to repair trust after the fact.
+It&rsquo;s uncomfortable every time, but it&rsquo;s part of the process.</p><p>Along the way, I discovered two frameworks that gave me language for patterns
+I&rsquo;d been bumping into for decades. <a href=https://erinmeyer.com/>Erin Meyer</a>&rsquo;s <a href=https://erinmeyer.com/books/the-culture-map/>The
+Culture Map</a> explains why people
+communicate, decide and trust differently across cultures. <a href=https://matthewskelton.net/>Matthew
+Skelton</a> and <a href=https://manuelpais.net/>Manuel
+Pais</a>&rsquo;s <a href=https://teamtopologies.com/>Team Topologies</a>
+explains how to structure teams and their interactions to reduce friction.
+Neither is sufficient alone. Team Topologies gives you structural patterns but
+assumes cultural homogeneity, while The Culture Map gives you cultural awareness
+but doesn&rsquo;t tell you how to organize teams. Together, they transformed how I
+think about global team design.</p><h2 id=why-good-intentions-are-not-enough>Why Good Intentions Are Not Enough</h2><p>I remember a project where I was coordinating between teams in the Netherlands,
+India and the US. We had a tight deadline for a migration and during our sync
+calls, I kept hearing &ldquo;yes, we&rsquo;ll handle it&rdquo; from one of the teams. Two days
+before the cutover, I discovered they&rsquo;d barely started. When I asked what
+happened, the answer was careful and indirect: they&rsquo;d been trying to signal for
+weeks that the timeline was impossible, but they did it by saying things like
+&ldquo;this will be challenging&rdquo; and &ldquo;we&rsquo;ll do our best.&rdquo;</p><blockquote><p>I&rsquo;d interpreted that as normal engineer caution. They&rsquo;d interpreted my pushing
+forward as me ignoring their concerns. The migration got delayed,
+relationships were strained and I learned that what counts as &ldquo;clear
+communication&rdquo; varies dramatically.</p></blockquote><p>This is what Meyer calls the difference between <strong>low-context</strong> and
+<strong>high-context</strong> communication. Low-context cultures (US, Netherlands, Germany)
+value explicit, precise language - basically you say exactly what you mean.
+High-context cultures (Japan, India, Middle East) rely heavily on implicit
+understanding and reading between the lines. When I asked &ldquo;can you deploy this
+by Friday?&rdquo; and heard &ldquo;I&rsquo;ll try my best,&rdquo; they were signaling that it was
+impossible. I heard normal engineering caution. Neither of us was wrong. We were
+operating on completely different assumptions about <strong>what counts as clear
+communication</strong>.</p><p>I still fall into this trap sometimes, but I recover faster now because I
+recognize the pattern: <strong>silence doesn&rsquo;t always mean agreement, enthusiasm
+doesn&rsquo;t always mean commitment</strong> and &ldquo;yes&rdquo; doesn&rsquo;t always mean &ldquo;yes, I can do
+that.&rdquo;</p><h2 id=making-the-invisible-explicit>Making the Invisible Explicit</h2><p>Here&rsquo;s something I learned the hard way: a colleague&rsquo;s <strong>silence in a meeting
+could mean at least six different things</strong> depending on where they&rsquo;re from and
+how they&rsquo;re wired. They might be thinking deeply, or disagreeing strongly, or
+waiting to be explicitly invited to speak, or dealing with a terrible internet
+connection, or processing in a second language, or just really needing coffee.
+&ldquo;Maybe we should reconsider this approach&rdquo; could mean &ldquo;this is a terrible idea
+that will set us back months&rdquo; or &ldquo;I have a tiny concern about edge case
+handling.&rdquo;</p><p>These days, I <strong>note main decisions</strong> and next steps after every meeting. I do
+it because it&rsquo;s amazing how often people say &ldquo;wait, that&rsquo;s not what I thought we
+decided.&rdquo;</p><p>I&rsquo;ve also gotten into the habit of <strong>asking clarifying questions</strong> that feel
+almost comically obvious. When someone says a task will be &ldquo;challenging,&rdquo; I&rsquo;ll
+ask them to help me understand if they mean it&rsquo;s technically risky but doable,
+or if they&rsquo;re trying to politely tell me the timeline is fantasy. When we agree
+on something, I&rsquo;ll ask people to walk me through how they&rsquo;re planning to
+approach it, which surfaces misalignments fast and saves everyone from
+discovering three weeks later that we were building completely different things.</p><p>This connects to something Team Topologies calls <strong>cognitive load</strong>, the mental
+effort required to do your job effectively. They identify three types:
+<strong>intrinsic</strong> (the fundamental complexity of the problem), <strong>extraneous</strong>
+(overhead from tools, processes and unclear boundaries) and <strong>germane</strong> (effort
+needed for learning and growth). For multinational teams, I&rsquo;d add a fourth type:
+<strong>cultural</strong> cognitive load. Working in a second language, navigating unfamiliar
+social norms, constantly code-switching between cultural contexts—it&rsquo;s
+exhausting. Every unclear communication, every meeting where you&rsquo;re not sure if
+people actually agreed, compounds that burden. Making the implicit explicit
+isn&rsquo;t just good practice, it&rsquo;s how you keep your team from burning out on
+overhead instead of doing actual work.</p><h2 id=feedback-disagreements-and-trust>Feedback, Disagreements and Trust</h2><p>I once gave what I thought was straightforward technical feedback in a design
+review, pointed out an unfeasible condition in someone&rsquo;s proposal, suggested an
+alternative approach, moved on. The person didn&rsquo;t say much during the rest of
+the meeting. Two days later, a colleague pulled me aside to let me know I&rsquo;d
+essentially shredded this person in public from their perspective and they were
+now convinced I thought they were incompetent.</p><blockquote><p>I&rsquo;d been going for &ldquo;here&rsquo;s a technical issue we should fix&rdquo; and they&rsquo;d heard
+&ldquo;you&rsquo;re bad at your job.&rdquo;</p></blockquote><p>Meyer calls this the evaluating dimension, <strong>direct</strong> versus <strong>indirect</strong>
+<strong>negative feedback.</strong> Netherlands, Germany and Russia tend toward brutal
+honesty. Japan, Thailand and many Latin American cultures wrap negative feedback
+in layers of positive framing. Telling a German colleague &ldquo;this architecture has
+serious problems with X, Y and Z&rdquo; is received as helpful directness. Saying the
+same thing to someone from a culture that values indirect feedback can feel like
+a personal attack, even when you&rsquo;re only discussing technical issues.</p><blockquote><p>Different people are comfortable with wildly different levels of directness.</p></blockquote><p>I&rsquo;ve worked with teammates who expect blunt, public technical criticism and will
+happily tell you when you&rsquo;re wrong in front of everyone. I&rsquo;ve worked with others
+who need written feedback in a private channel and time to process before they
+can discuss it. Both approaches are valid. The disaster happens when you treat
+everyone the same way and assume your default is universal.</p><p>These days, I try to offer both <strong>written</strong> and <strong>one-on-one</strong> feedback
+channels, because some people process criticism better when they can read it
+twice and think about it, while others need the nuance of a live conversation to
+know you&rsquo;re not attacking them. I&rsquo;ve also learned to frame criticism around the
+work itself rather than the person who did it. Saying &ldquo;this approach has a race
+condition under high load&rdquo; lands differently than &ldquo;you didn&rsquo;t think about
+concurrency,&rdquo; even though both sentences point at the same technical problem.</p><p>While working as a Principal Engineer, a junior engineer caught a significant
+error in my proposal. I made sure to <strong>highlight</strong> it in the team retrospective
+later, not to praise them for being smart, but to demonstrate that disagreeing
+with me led to a better outcome for everyone. If people think disagreement is
+dangerous, they stop doing it and then you&rsquo;re just building things wrong
+together.</p><h2 id=tools-dont-fix-teams>Tools Don&rsquo;t Fix Teams</h2><p>I&rsquo;ve watched organizations assume that giving everyone Slack and Zoom solves
+distributed work. <strong>It doesn&rsquo;t</strong>. Without intentional structural design, you end
+up with functional silos recreated digitally, those #ask-engineering channels
+that become black holes where requests go to die. Tools don&rsquo;t fix structure.
+Structure informed by both team design principles and cultural awareness does.</p><p><a href=https://teamtopologies.com/>Team Topologies</a> gave me language for what I&rsquo;d
+been figuring out the hard way. The part that matters most for multinational
+work: how teams interact. And for global teams, I&rsquo;ve found
+<a href=https://teamtopologies.com/news-blogs-newsletters/x-as-a-service>X-as-a-Service</a>
+is gold—one team provides a service that others consume with minimal
+coordination.</p><p>When a platform team provides <strong>well-documented</strong>, self-service capabilities,
+you dramatically reduce the need for synchronous communication across cultures
+and time zones. Instead of scheduling meetings where direct German feedback
+might clash with indirect Japanese communication styles, teams consume services
+through clear APIs and documentation. The interface becomes the translator.</p><p>There&rsquo;s a related concept called the <a href=https://teamtopologies.com/key-concepts-content/what-is-a-thinnest-viable-platform-tvp><strong>Thinnest Viable
+Platform</strong></a>,
+the smallest set of APIs, documentation and tools needed to accelerate other
+teams. For global organizations, this prevents platform teams from building
+elaborate solutions that require extensive training and synchronous support.</p><blockquote><p>Start with documentation.</p></blockquote><p>A well-maintained wiki can be your TVP. It&rsquo;s asynchronous, searchable and
+doesn&rsquo;t care what time zone you&rsquo;re in. Add self-service capabilities gradually
+based on what teams actually need, not what headquarters assumes they need.</p><p>I also use what Team Topologies calls <a href=https://teamtopologies.com/key-concepts-content/category/Team+API><strong>Team
+APIs</strong></a>,
+explicitly defining what a team provides, how to interact with them and what
+they expect. I include cultural working preferences: preferred communication
+channels and expected response times, how the team prefers to receive feedback,
+decision-making process (do they need consensus or can the lead decide?) and
+meeting norms (cameras on/off?, how do we handle questions or interruptions?).
+Making these explicit prevents the collision between different cultural
+defaults.</p><h2 id=decision-making>Decision Making</h2><p>Meyer&rsquo;s framework distinguishes <strong>consensual</strong> cultures (where everyone needs to
+agree before moving forward) from <strong>top-down</strong> cultures (where someone makes the
+call, often quickly). Germany and Netherlands are surprisingly consensual while
+US and France are more top-down.</p><blockquote><p>The trap: consensual decision-making looks slow to top-down cultures and
+top-down decisions feel reckless to consensual cultures.</p></blockquote><p>I&rsquo;m Eastern European and like to move fast, my first year in the Netherlands was
+hard as I did not understand why my Dutch colleagues wanted to have a discussion
+about pretty much&mldr; anything. When I tried to &ldquo;move fast&rdquo; it destroyed team
+trust. <strong>They felt steamrolled and I felt blocked and disappointed</strong>.</p><p>Now I make decision processes explicit before each significant decision. Who has
+input? Who makes the final call? When will we decide? With consensus-oriented
+teammates, I build in discussion time and explicitly work toward alignment. With
+top-down teammates, I make clear who has authority and when the decision will be
+made. <strong>I don&rsquo;t assume my approach is universal</strong>.</p><p>Trust compounds this complexity. Task-based cultures (US, Netherlands, Germany)
+build trust through reliability and competence:</p><blockquote><p>&ldquo;I trust you because you deliver quality work.&rdquo;</p></blockquote><p>Relationship-based cultures (China, India, Middle East, Latin America) build
+trust through personal connection:</p><blockquote><p>&ldquo;I trust you because I know you as a person.&rdquo;</p></blockquote><p>This affects everything. In relationship-based cultures, jumping straight to
+business without personal connection feels cold and transactional. In task-based
+cultures, spending time on personal chat before getting to work can feel like a
+waste.</p><p>In remote multinational teams, you need to create opportunities for both.
+Virtual coffee chats, team offsites when possible and non-work Slack channels
+aren&rsquo;t fluff, they&rsquo;re trust infrastructure for half your team. But you also need
+to <strong>deliver reliably and follow through on commitments</strong>, because that&rsquo;s trust
+infrastructure for the other half.</p><h2 id=what-being-a-manager-taught-me-about-being-a-team-member>What Being a Manager Taught Me About Being a Team Member</h2><p>Most of my career, I&rsquo;ve been an infrastructure engineer without any formal
+authority. I propose architectural changes, coordinate across teams, mentor
+people and generally try to influence things through expertise and
+relationships. It&rsquo;s a comfortable spot, you get to have opinions about how
+things should work without being the person everyone blames when they don&rsquo;t.</p><p>I&rsquo;ve been the formal manager of an infrastructure team twice and both times were
+harder than I expected. The first time, I optimized almost entirely for
+technical delivery and somehow didn&rsquo;t notice that the team was falling apart
+until someone quit. The second time, I over-indexed on process and structure to
+the point where I was slowing everyone down with meetings and checkpoints that
+made sense in my head but drove them crazy in practice.</p><blockquote><p>Both times I thought I understood what I was doing and both times the team
+taught me I didn&rsquo;t.</p></blockquote><p>The weird thing is that being a manager and being mediocre at it, made me better
+at being a team member. I learned that decision processes need to be explicit,
+not just understood by whoever happens to be in charge. When everyone knows who
+has input, who actually decides and when we&rsquo;ll revisit the decision, you avoid
+the &ldquo;I thought you were handling it&rdquo; disaster that happens way too often in
+distributed teams.</p><p>I also learned that <strong>protecting focus time is critical</strong>. Infrastructure work
+requires deep concentration and in a global team someone is always online and
+someone is always asking questions. Normalizing &ldquo;I&rsquo;m blocking three hours on my
+calendar and won&rsquo;t respond during that time&rdquo; turned out to be a gift to
+everyone, not just me.</p><p>These days, I&rsquo;m back to being a team member and honestly I&rsquo;m more useful here
+than I was in management. But I&rsquo;m grateful for those two painful stints because
+they gave me perspective I wouldn&rsquo;t have gotten otherwise.</p><h2 id=what-changed-in-me>What Changed in Me</h2><p>The biggest shift over twenty-five years hasn&rsquo;t been technical, it&rsquo;s been
+realizing that &ldquo;my way is normal&rdquo; is one of the most expensive assumptions you
+can make. When I started, I thought professionalism was a universal language and
+that good engineers everywhere approached problems the same way. Then I spent
+two decades working with people from every continent and learned that almost
+nothing about how I work is universal. The way I communicate, give feedback,
+make decisions, handle conflict, structure my day, process information, all of
+it is cultural and personal, not fundamental.</p><blockquote><p>The most effective teams I&rsquo;ve seen aren&rsquo;t the ones where everyone thinks alike
+or where the loudest person wins. They&rsquo;re the teams that share context openly,
+stay genuinely curious about why their teammates work differently and design
+their processes deliberately instead of letting them emerge by accident and
+then wondering why everything is chaos.</p></blockquote><p>I&rsquo;m writing this from my current team of seven&mldr; seven nationalities, all
+working around a single hub except for my manager who&rsquo;s in a different time
+zone. Some days it&rsquo;s exhausting. Some days it&rsquo;s the best part of the job. Most
+days it&rsquo;s both. Is it a well-oiled machine? Not at all. We still have plenty of
+things to figure out.</p><h2 id=tldr>TL;DR</h2><p>If you&rsquo;re suddenly in a very diverse team or stepping into your first
+infrastructure management role, start by knowing people, how they prefer to
+receive feedback and actually listen to the answer. Don&rsquo;t assume your default is
+everyone&rsquo;s default, because it isn&rsquo;t. Pick one process that&rsquo;s currently
+implicit, i.e., how you handle incidents, how design decisions get made, how you
+prioritize work and write it down. You&rsquo;ll discover misalignments you didn&rsquo;t know
+existed and half your team will be relieved that someone finally said it out
+loud.</p><p>When something goes wrong and it will, assume good intent and ask what systemic
+issue made it easy to fail. Culture gaps are almost always system problems, not
+people problems. Fixing the system is more useful than fixing the person.</p><p>The goal isn&rsquo;t to eliminate cultural differences, it&rsquo;s to create structures that
+let diverse teams thrive while reducing the friction that comes from unexamined
+assumptions. Start by mapping your team&rsquo;s cultural profiles. Design your team
+structures, interaction modes and communication norms with those profiles in
+mind. Make everything explicit. Default to async, that&rsquo;s a way to go.</p><p>Treat all of this as input, not a template. What works for one team might be
+completely wrong for yours. Run your own experiments. In your next incident
+review or design meeting, try one small change and see what happens. Pay
+attention to what works and what doesn&rsquo;t. That&rsquo;s how you learn what fits your
+team, in your context, right now.</p><ul class=pa0><li class="list di"><a href=/tags/distributed-teams/ class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Distributed-Teams</a></li><li class="list di"><a href=/tags/culture/ class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Culture</a></li><li class="list di"><a href=/tags/communication/ class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Communication</a></li><li class="list di"><a href=/tags/engineering/ class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Engineering</a></li></ul><div class="mt6 instapaper_ignoref"></div></div><aside class="w-30-l mt6-l"><div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links"><p class="f5 b mb3">Related</p><ul class="pa0 list"><li class=mb2><a href=/posts/almost-right-but-wrong/>Almost Right - but Wrong</a></li></ul></div></aside></article></main><footer class="bg-black bottom-0 w-100 pa3" role=contentinfo><div class="flex justify-between"><a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href=https://taihen.org/>&copy; taihen.org / 418 ... engineering in progress 2026</a><div><div class=ananke-socials></div></div></div></footer></body></html>
